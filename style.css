@@ -10,9 +10,6 @@ body{
     background-image: url("./imgs/pexels-craig-adderley-1563356.jpg");
     background-size:     cover;                     
     background-repeat:   no-repeat;
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* background-position: center center;  */
 }
 form{
     color: rgb(248, 110, 133);
@@ -53,12 +50,6 @@ input{
 .up{
     display: none;
 }
-/* .first{
-    display: none;
-}
-.in{
-    display: none;
-} */
 .info_signup p{
     padding: 10px 0px 30px 0px;
 }
@@ -80,7 +71,7 @@ input{
 .up{
     transform: translate(-40%,-50%);
 }
-/* ----------------------- */
+/* -----------css for buttons------------ */
 button{
     color: white;
     background-color: transparent;

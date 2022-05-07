@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <!-- <link rel="stylesheet" href="./button.css"> -->
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="col">
             <div class="info_signup first" id="first">
                 <h1>Don't have an account?</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae similique natus a aperiam provident. Illo.</p>
@@ -28,7 +27,7 @@
                 </form>
             </div>
         </div>
-        <div>
+        <div class="col">
             <div class="info_signup second" id="second">
                 <h1>Have an account?</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae similique natus a aperiam provident. Illo.</p>
@@ -51,15 +50,15 @@
         function openSignup()
         {       
             document.getElementById("first").style.display='none';
-            document.getElementById("up").style.display='contents';
+            document.getElementById("up").style.display='inherit';
             document.getElementById("in").style.display='none';
-            document.getElementById("second").style.display='contents';
+            document.getElementById("second").style.display='inherit';
         }
         function openSignin()
         {       
-            document.getElementById("first").style.display='contents';
+            document.getElementById("first").style.display='inherit';
             document.getElementById("up").style.display='none';
-            document.getElementById("in").style.display='contents';
+            document.getElementById("in").style.display='inherit';
             document.getElementById("second").style.display='none';
         }
     </script>
