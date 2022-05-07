@@ -1,0 +1,25 @@
+button{
+    color: white;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding:8px 30px 8px 30px;
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border: black solid 1px;
+}
+.sign-btn{
+    background-color: rgb(248, 110, 133);
+    color: white;
+}
+.up-btn {
+    position:relative;
+    left:60%;
+}
+.in-btn{
+    position: absolute;
+    right:10%;
+}
